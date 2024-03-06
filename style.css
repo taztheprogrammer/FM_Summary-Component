@@ -1,18 +1,30 @@
 * {
     /* border: 1px solid black; */
+    margin: 0;
+    padding: 0;
 }
 
 body {
-    background: lightblue
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+    overflow: hidden;
 }
 main {
+    height: 100vh;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
 }
 .card {
     width: 450px;
     height: 700px;
     margin: auto;
-    border: 1px solid black
+    box-shadow: 0 0 15px 0px rgba(0, 0, 0, .2);
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
 }
 
 #text {
